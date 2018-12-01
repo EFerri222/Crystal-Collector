@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/main.js"></script>
+</head>
+<body>
+
+    <header><h1>Crystal Collector!</h1></header>
+
+    <div id="instructions">
+        <p>You will be given a random number at the start of the game.</p>
+
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. </p>
+
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+
+        <p>Each time when the game starts, the game will change the value of each crystal.</p>
+    </div>
+
+    <div id="randomNumberBox"></div>
+
+    <div id="winsAndLossesBox" class="clearfix">
+        <p id="wins">Wins: 0</p>
+        <p id="losses">Losses: 0</p>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="crystalButton clearfix" id="blueCrystal"><img src="assets/images/bluecrystal.png" class="crystalImage"></div>
+    <div class="crystalButton clearfix" id="greenCrystal"><img src="assets/images/greencrystal.png" class="crystalImage"></div>
+    <div class="crystalButton clearfix" id="orangeCrystal"><img src="assets/images/orangecrystal.png" class="crystalImage"></div>
+    <div class="crystalButton clearfix" id="purpleCrystal"><img src="assets/images/purplecrystal.png" class="crystalImage"></div>
+    <br>
+
+    <div id="totalScoreBox">
+        Your total score is:
+    </div>
+
+    <div id="userScoreBox">0</div>
+
+    <div id="result"></div>
+    
+</body>
+</html>

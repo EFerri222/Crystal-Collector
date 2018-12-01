@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    background-image: url("images/cavern.jpg");
+    background-size: 1200px 1600px;
+    background-repeat: no-repeat;
+    width: 1300px;
+}
+
+header {
+    background-color: #D16920;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+#instructions {
+    width: 50%;
+    background-color: beige;
+    font-weight: bold;
+    color: green;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#randomNumberBox {
+    float: left;
+    background-color: green;
+    height: 84px;
+    width: 10%;
+    margin-right: 10px;
+    font-size: 36px;
+    color: purple;
+}
+
+#winsAndLossesBox {
+    display: inline-block;
+    background-color: #02FEFF;
+    width: 10%;
+}
+
+.crystalImage {
+    height: 300px;
+    width: 300px;
+}
+
+.crystalButton {
+    /* float: left; */
+    display: inline-block;
+}
+
+#result {
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#totalScoreBox {
+    background-color: #018387;
+    width: 10%;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#userScoreBox {
+    background-color: #018387;
+    width: 10%;
+    color: white;
+    font-size: 36px;
+    padding-bottom: 50px;
+}
